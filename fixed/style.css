@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    background-color: rgb(255, 251, 0);
+    justify-content: space-around;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: white;
+    height: 400px;
+    margin: 50px;
+    padding: 10px;
+}
+h1{
+    position: relative;
+    left: 145px;
+    color: rgb(45, 175, 45);
+    margin: 10px;
+}
+.bean{
+    position: relative;
+    right: 85px;
+    z-index: 0;
+}
+.h1_div{
+    display: inline;
+    position: relative;
+    left: -40px;
+     width: 100% !important;
+}
+.cup{
+position: relative;
+right: -10px;
+}
+.smoke{
+position: relative;
+right: 123px;
+top: -80px;
+}
+h2{
+    position: relative;
+    top: 75px;
+    right: 190px;
+}
+h3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    left: -250px;
+    flex-direction: row;
+    width: 100%;
+}
+.right{
+    margin-left: 50px;
+}
+#bronze{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    left: -264px;
+    flex-direction: row;
+}
